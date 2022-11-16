@@ -3,6 +3,7 @@ import Header from '../components/common/header/Header';
 import HomeCatalogPreview from '../components/homepage/HomeCatalogPreview';
 import HomeNewsletter from '../components/homepage/HomeNewsletter';
 import HomePayment from '../components/homepage/HomePayment';
+import HomeSocial from '../components/homepage/HomeSocial';
 
 export default function Home() {
   return (
@@ -20,6 +21,8 @@ export default function Home() {
           <HomeCatalogPreview></HomeCatalogPreview>
 
           <HomeCatalogPreview></HomeCatalogPreview>
+
+          <HomeSocial></HomeSocial>
 
           <HomePayment></HomePayment>
 
